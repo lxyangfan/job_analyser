@@ -64,9 +64,10 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'data_analyzer_jd.pipelines.DataAnalyzerJdPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'data_analyzer_jd.pipelines.HtmlTagRemovePipeline': 300,
+   'data_analyzer_jd.pipelines.TransFormItemPipeline': 301
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html

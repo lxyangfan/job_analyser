@@ -14,6 +14,8 @@ class JobDetailItem(scrapy.Item):
     job_id = scrapy.Field()
     job_title = scrapy.Field()
     salary = scrapy.Field()
+    salary_min = scrapy.Field()
+    salary_max = scrapy.Field()
     job_req = scrapy.Field()
     address = scrapy.Field()
     education = scrapy.Field()
