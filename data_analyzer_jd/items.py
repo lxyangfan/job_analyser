@@ -8,12 +8,13 @@
 import scrapy
 
 
-class DataAnalyzerJdItem(scrapy.Item):
+class JobDetailItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     job_id = scrapy.Field()
     job_title = scrapy.Field()
     salary = scrapy.Field()
+    job_req = scrapy.Field()
     address = scrapy.Field()
     education = scrapy.Field()
     experience = scrapy.Field()
