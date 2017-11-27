@@ -1,1 +1,0 @@
-del data.csv && scrapy crawl jb -o data.csv
