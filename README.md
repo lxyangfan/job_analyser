@@ -29,3 +29,11 @@ scrapy crawl jb -o data.csv
 ## 更多信息
 
 参见我的博客介绍：[Python爬虫之Scrapy上手指南](http://www.fr4nk.cn/2017/11/28/scrapy-tutorial/)
+
+可视化结果
+
+工具的要求
+<img src="https://raw.githubusercontent.com/lxyangfan/job_analyser/master/assets/img/r1.png" />
+
+工作内容关键词
+<img src="https://raw.githubusercontent.com/lxyangfan/job_analyser/master/assets/img/r2.png" />
