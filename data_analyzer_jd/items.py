@@ -23,4 +23,5 @@ class JobDetailItem(scrapy.Item):
     job_desp = scrapy.Field()
     comp_id = scrapy.Field()
     comp_name = scrapy.Field()
+    comp_size = scrapy.Field()
     comp_detail = scrapy.Field()

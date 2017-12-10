@@ -1,0 +1,3 @@
+JobAnalyser
+jieba==0.39
+scrapy==1.4.0
